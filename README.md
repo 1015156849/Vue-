@@ -4,7 +4,7 @@
 
 ----------------------------------------------------------------------------------------
   1.class 内部用空格隔开代表一次性应用多个不同的css样式</br>
-  2.<router-link to="../a">等于 <a href="../a"></a></br>
+  2.<router-link to="../a">等于 `<a href="../a"></a></br>
   3.$router.push({path:'../a'}) 等同于 <router-link to="../a"></br>
   4.$router.replace({path:'../a'}) 和$router.push({path:'../a'}) 区别和Android的fragment里的replace和add差不多，一个是覆盖，一个是添加</br>
   5.$router.push({path:'../a'})里可以加入replace:true 的属性，效果和直接用$router.replace({path:'../a'})一样</br>
